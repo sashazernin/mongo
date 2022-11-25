@@ -8,7 +8,7 @@ const start = async () => {
         console.log('connect passed')
         const users = client.db().collection('users')
         users.insertOne({name:'sasha',age:18})
-        
+
     }catch(e){
         console.log(e)
     }
